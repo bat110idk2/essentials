@@ -1,0 +1,26 @@
+#.add_description의 이름의 브랜치를 생성하고 체크아웃 하기
+git checkout -b add_description
+
+#. master브랜치에서 분기하는 new_feature 브랜치 생성
+git checkout master
+git branch new_feature
+git push origin new_feature
+
+#. git 예약어
+@bat110
+
+# markdown 문법
+https://guides.github.com/features/mastering-markdown
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+내부링크 : [[xxx]], [[rename|xxx#go]]
+외부링크 : [naver](www.naver.com)
+링크 : <www.naver.com>
+
+
+#. 지원되는 마크업 목록
+https://github.com/github/markup#markups
+
+
+#. 커맨드 라인에서 태그 푸시
+    
